@@ -499,6 +499,18 @@ header{ border-bottom: 1px solid #ececec;}
   gap: 30px;
   flex-direction: column;
 }
+.hero__title {
+  width: 696px;
+  display: inline-block;
+  text-align: center;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
 
 
 
@@ -621,11 +633,7 @@ button {
   font-family: inherit;
 }
 
-.action-photo .list {
-  display: flex;
-  gap: 30px;
-  width: 100%;
-}
+
 
 
 .our-section{
@@ -771,10 +779,6 @@ svg .icon-adress-link{
 }
 /*  */
 
-.action-photo.section {
-  padding-top: 0px;
-  padding-bottom: 94px;
-}
 
 
 
@@ -828,7 +832,10 @@ button {
 .advantage-card__discription {
   font-size: 14px;
   line-height: 1.71;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
+
 
 .our-team__discription {
   line-height: 1.19;
@@ -840,103 +847,30 @@ button {
 
 
 /* title */
+
 .title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 
   color: var(--primary-text-color);
 } 
-.title {
- 
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
 
-.main-title {
+
+.our-team__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.h2-title {
   margin-bottom: 50px;
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-.hero__title {
-  width: 696px;
-  display: inline-block;
-  text-align: center;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
-}
-
-.client-title {
-  margin-bottom: 50px;
-  color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 
-.action-photo .title {
-
-  color: var(--primary-text-color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
-.action-photo .title {
-  margin-bottom: 50px;
-
-  color: var(--primary-text-color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  text-decoration: none;
-}
-
-.our-team .title {
-  color: var(--primary-text-color);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-}
-.our-team .title {
-  color: var(--primary-text-color);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-}
-
-.help-list .title {
-  color: var(--primary-text-color);
-
-  font-weight: 700;
-  font-size: 14px;
-
-  line-height: 1.14;
-}
-.block-photo .title {
-  color: var(--primary-text-color);
-}
-.block-photo .title {
-  color: var(--primary-text-color);
-}
-
-.title-footer {
+.footer__title {
   font-size: 14px;
   line-height: 1.1428;
   letter-spacing: 0.03em;
@@ -945,39 +879,31 @@ button {
   margin-top: 12px;
 }
 
-.form-row-title:not(:first-child){
+.form-row__title:not(:first-child){
   margin-top: 10px;
 }
-.form-row-title{
+.form-row__title{
   display: block;
   margin-bottom: 4px;
   margin-top: 10px;
   color: var(--secondary-text-color);
 }
-footer .form-row-title{
-  color: var(--primary-white-color);
-}
+
 
 
 
 
 /* main-page */
 
-
-
-
-
-.help-list p {
-  margin-top: 10px;
-  margin-bottom: 0px;
+.advantage-card__title {
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 
-.action-photo .list {
-  display: flex;
-  gap: 30px;
-  width: 100%;
-}
+
+
+
 
 
 
@@ -1006,15 +932,10 @@ footer .form-row-title{
   padding: 94px 0;
 }
 
-
-
 .our-team.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-
-
 
 .block-photo {
   display: flex;
@@ -1024,9 +945,16 @@ footer .form-row-title{
 }
 
 
+/* action-photo */
+
 .item-photo__action{
   position: relative;
   overflow: hidden; 
+}
+.action-photo .list {
+  display: flex;
+  gap: 30px;
+  width: 100%;
 }
 
 .discrip-photo__action{
@@ -1053,6 +981,25 @@ footer .form-row-title{
   overflow: auto;
   transition: transform 250ms cubic-bezier(0.4,0,0.2,1);
 }
+.action-photo__title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  text-decoration: none;
+}
+
+.action-photo.section {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+.action-photo .list {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+/* portfolio action-discription */
 
 .item-photo__wrap{
   position: relative;
