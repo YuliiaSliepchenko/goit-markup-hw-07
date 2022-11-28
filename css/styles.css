@@ -48,20 +48,33 @@ img {
   min-width: 100%;
   height: auto;
 }
+/* copponents */
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-text-color);
+} 
+.h2-title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.conteiner {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 
   /* conteiner */
 
-  .conteiner {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-  
-  .header__conteiner {
-    justify-content: space-between;
-    display: flex;
-  }
+ 
 
   .hero__conteiner {
     max-width: 1600px;
@@ -131,6 +144,13 @@ img {
 /* header */
 
 
+.header__conteiner {
+  justify-content: space-between;
+  display: flex;
+}
+
+
+/* modal-active */
 .modal-wrap{
   position: fixed;
   left: 0;
@@ -366,29 +386,6 @@ header{ border-bottom: 1px solid #ececec;}
 .site-nave .item:last-child {
   margin-right: 0;
 }
-
-
- 
-.advantage-card:last-child {
-  margin-right: 0;
-  
-}
-
-.advantage-card__link{
-  margin-right: 0;
-}
-
- .advantage-card__svg{
-  display: block;
-  justify-content:center;
-  width: 270px;
-  height: 120px;
-  background: var(--bgr-grey-color);
-  border-radius: 4px;
-  margin-bottom: 30px;
-  padding: 25px 100px; 
-  fill: currentColor;
-}
 .adress-head {
   display: flex;
   align-items: center;
@@ -468,14 +465,41 @@ header{ border-bottom: 1px solid #ececec;}
   text-decoration: none;
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.foot_adress{
-  max-width: 231px;
-  width: 100%;
-}
 .adress-head .link:hover,
 .adress-head .link:focus {
   color: var(--accent-color);
 }
+
+/* advantage-card */
+ 
+.advantage-card__title {
+  font-size: 14px;
+  line-height: 1.14;
+}
+ 
+.advantage-card:last-child {
+  margin-right: 0;
+  
+}
+
+.advantage-card__link{
+  margin-right: 0;
+}
+
+ .advantage-card__svg{
+  display: block;
+  justify-content:center;
+  width: 270px;
+  height: 120px;
+  background: var(--bgr-grey-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 100px; 
+  fill: currentColor;
+}
+
+
+
 
 /* HERO */
 .hero-section {
@@ -845,67 +869,14 @@ button {
   line-height: 1.88;
 }
 
-
-/* title */
-
-.title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-
-  color: var(--primary-text-color);
-} 
-
-
-.our-team__title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+.block-photo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
-.h2-title {
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
-.footer__title {
-  font-size: 14px;
-  line-height: 1.1428;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
-  margin-top: 12px;
-}
-
-.form-row__title:not(:first-child){
-  margin-top: 10px;
-}
-.form-row__title{
-  display: block;
-  margin-bottom: 4px;
-  margin-top: 10px;
-  color: var(--secondary-text-color);
-}
-
-
-
-
 
 /* main-page */
-
-.advantage-card__title {
-  font-size: 14px;
-  line-height: 1.14;
-}
-
-
-
-
-
-
-
 
 .our-team {
   background-color: var(--bgr-grey-color);
@@ -936,12 +907,10 @@ button {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-.block-photo {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
+.our-team__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 
@@ -1056,8 +1025,18 @@ button {
 .footer {
   background-color: var(--bgr-darck-color);
 }
-
-
+.foot_adress{
+  max-width: 231px;
+  width: 100%;
+}
+.footer__title {
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-top: 12px;
+}
 
 
 
@@ -1101,6 +1080,7 @@ gap: 9px;
   color: var(--accent-color);
 }
 
+/* modal */
 
 .modal-form{
   display: flex;
@@ -1110,9 +1090,20 @@ gap: 9px;
   
 }
 .footer .modal-form:not(:first-child){
-  display: flex;
-  
+  display: flex; 
 }
+
+.form-row__title:not(:first-child){
+  margin-top: 10px;
+}
+.form-row__title{
+  display: block;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  color: var(--secondary-text-color);
+}
+
+
 .form-row-inp{
   display: block;
 max-width: 358px;
