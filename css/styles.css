@@ -84,7 +84,7 @@ img {
   line-height: 1.19;
   text-decoration: none;
 }
-
+AA
 .link {
   font-weight: 500;
   font-size: 14px;
@@ -752,10 +752,11 @@ button {
 
 /* our-team */
 
-
-.our-team__conteiner{
+.our-team_section{
   background-color: var(--bgr-grey-color);
+  max-width: 1600px;
 }
+
 
 .team-card {
   border-color: transparent;
