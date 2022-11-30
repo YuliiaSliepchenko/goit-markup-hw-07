@@ -471,11 +471,11 @@ padding: 41px 44px 39px 36px;
   right: 10px;
   top: 10px;
 }
-.form-row-test{
+.form-row__test{
   position: relative;
 }
 
-.form-row-test::after{
+.form-row__test::after{
   gap: 12px;
   background-image: url(../images/icons/cross.svg);
  background-repeat: no-repeat;
@@ -498,7 +498,7 @@ font-weight: 400;
 letter-spacing: 0.01em;
 }
 
-.form-row-input{
+.form-row__input{
   display: block;
   max-width: 470px;
   width: 100%;
@@ -510,7 +510,7 @@ letter-spacing: 0.01em;
   outline:none;
   color:var(--input-color);
 }
-.form-row-input.form-story{
+.form-row__input.form-story{
   min-height: 120px;
   width: 448px;
   transform: auto;
@@ -518,17 +518,17 @@ letter-spacing: 0.01em;
   resize: none;
 }
 
-.form-row-input::placeholder {
+.form-row__input::placeholder {
   color: var(--secondary-text-color);
 }
 
-  .form-row-input:focus {
+  .form-row__input:focus {
     border: 1px solid var(--accent-color);
   }
-  .form-row-input .icon{
+  .form-row__input .icon{
      padding-right: 12px; 
   }
-  .form-row-input:focus + svg {
+  .form-row__input:focus + svg {
       fill:var(--accent-color);
     }
 
