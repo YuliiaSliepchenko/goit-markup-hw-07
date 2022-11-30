@@ -84,13 +84,13 @@ img {
   line-height: 1.19;
   text-decoration: none;
 }
-AA
+
 .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;s
+  text-decoration: none;
 
   color: var(--primary-text-color);
 }
@@ -454,7 +454,7 @@ visibility: hidden;
 transition: transform 250ms ease;
 padding: 41px 44px 39px 36px;
 }
-.close-modal{
+.modal__close{
   position: absolute;
   right: 8px;
   top: 8px;
@@ -465,7 +465,7 @@ padding: 41px 44px 39px 36px;
   border-radius: 50%;
  
 }
-.cross.close-modal{
+.modal__cross{
   fill: var(--primary-text-color);
   position: absolute;
   right: 10px;
