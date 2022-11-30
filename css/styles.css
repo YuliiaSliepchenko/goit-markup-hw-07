@@ -539,7 +539,7 @@ letter-spacing: 0.01em;
    left: 12px;
     transition: fill 0.3s ease-in-out;
   }
-.modal p{
+.modal__discription{
 font-weight: 700;
 font-size: 20px;
 line-height: 1.15;
@@ -638,7 +638,7 @@ color: var(--primary-white-color);}
   position: absolute;
 }
 
-.button-secondary {
+.filter {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -675,27 +675,12 @@ color: var(--primary-white-color);}
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
 }
-.filter-btn {
-  padding: 6px 22px;
-  border-radius: 4px;
-  background-color: var(--bgr-grey-color);
-  cursor: pointer;
-  border: 0ch;
- line-height: 1.625;
-  font-weight: 500; 
-  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.filter-btn:hover,
-.filter-btn:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+
 .items-photo:hover,
 .items-photo:focus{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.items-photo{
+.block-photo__items{
   position: relative;
   transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -829,19 +814,24 @@ button {
 }
 
 
-.filter-btn {
+.filter__btn {
   padding: 6px 22px;
   border-radius: 4px;
+  line-height: 1.625;
+  font-weight: 500; 
   background-color: var(--bgr-grey-color);
   cursor: pointer;
   border: 0ch;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color , background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
-.filter-btn:hover,
+
+.filter__btn:hover,
 .filter-btn:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+ 
 }
 button {
   font-family: inherit;
@@ -931,7 +921,7 @@ button {
   display: inline-block;
   margin-bottom: 20px;
 }
-.footer-nave__link {
+.contacts-info__link {
   display: inline-block;
  
   color: var(--secondary-white-color);
@@ -941,8 +931,8 @@ button {
   font-style: normal;
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-nave__link:hover,
-.footer-nave__link:focus {
+.contacts-info__link:hover,
+.contacts-info__link:focus {
   color: var(--accent-color);
 }
 
@@ -954,7 +944,7 @@ button {
   margin-bottom: 9px;
 }
 
-.foot_adress{
+.contacts{
   max-width: 231px;
   width: 100%;
 }
@@ -993,7 +983,7 @@ button {
   color: var(--accent-color);
 }
 
-.adress{
+.contacts__adress{
   display: grid;
 gap: 9px;
 }
@@ -1027,7 +1017,7 @@ gap: 9px;
 }
 
 
-.form-row-inp{
+.modal-form__input{
   display: block;
 max-width: 358px;
 width: 100%;
@@ -1041,7 +1031,7 @@ background: none;
 margin-right: 12px;
 margin-top: 20px;}
 
-.footer_send_btn{
+.modal-form__btn{
   max-width: 200px;
   max-height: 50px;
   width: 100%;
@@ -1072,7 +1062,7 @@ margin-top: 20px;}
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
 }
-.form-row-footer {
+.form-mailing{
   position: relative;
   display: block;
   font-size:12px;
@@ -1090,7 +1080,7 @@ background: none;
   }
 
 
-.icon-footer{
+.modal-form__icon{
   display: flex;
   position: absolute;
   right: 15%;

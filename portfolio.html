@@ -52,21 +52,21 @@
         
         <div class="conteiner block">
           <!-- <h1>Портфоліо</h1> -->
-        <ul class="button-secondary list">
+        <ul class="filter list">
           <li class="items">
-            <button type="button" class="filter-btn">Усі</button>
+            <button type="button" class="filter__btn">Усі</button>
           </li>
           <li class="items">
-            <button type="button" class="filter-btn">Веб-сайти</button>
+            <button type="button" class="filter__btn">Веб-сайти</button>
           </li>
           <li class="items">
-            <button type="button" class="filter-btn">Додатки</button>
+            <button type="button" class="filter__btn">Додатки</button>
           </li>
           <li class="items">
-            <button type="button" class="filter-btn">Дизайн</button>
+            <button type="button" class="filter__btn">Дизайн</button>
           </li>
           <li class="items">
-            <button type="button" class="filter-btn">Маркетинг</button>
+            <button type="button" class="filter__btn">Маркетинг</button>
           </li>
         </ul>
           <ul class="block-photo">
@@ -283,13 +283,13 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__conteiner conteiner  ">
-        <div class="foot_adress">
+      <div class="conteiner footer__conteiner">
+        <div class="contacts">
           <a class="footer__logo logo" href="index.html"
             >Web<span>Studio</span></a
           >
           <address>
-            <ul class="adress">
+            <ul class="contacts__adress">
               <li class="footer-adress list">
                 <a
                   href="https://goo.gl/maps/wSFg71M6Uk85JUGh7"
@@ -299,21 +299,21 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="footer-nave list">
+              <li class="contacts-info list">
                 <a
                   href="info@devstudio.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="footer-nave__link link"
+                  class="contacts-info__link link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer-nave list">
+              <li class="contacts__info list">
                 <a
                   href="+380961111111"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="footer-nave__link link"
+                  class="contacts-info__link link"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -324,10 +324,10 @@
         <div class="footer-social">
           <h3 class="footer__title">ПРИЄДНУЙТЕСЬ</h3>
           <ul class="footer-social__icon">
-            <li class="sosial-item">
+            <li class="sosials-item">
               <a
                 href="#"
-                class="social-item__link"
+                class="socials__link"
                 target="blank"
                 rel="noopener noreferrer"
               >
@@ -337,10 +337,10 @@
               </a>
             </li>
 
-            <li class="sosial-item">
+            <li class="sosials-item">
               <a
                 href="#"
-                class="social-item__link"
+                class="socials__link "
                 target="blank"
                 rel="noopener noreferrer"
               >
@@ -350,10 +350,10 @@
               </a>
             </li>
 
-            <li class="sosial-item">
+            <li class="sosials-item">
               <a
                 href="#"
-                class="social-item__link"
+                class="socials__link"
                 target="blank"
                 rel="noopener noreferrer"
               >
@@ -363,10 +363,10 @@
               </a>
             </li>
 
-            <li class="sosial-item">
+            <li class="sosials-item">
               <a
                 href="#"
-                class="social-item__link"
+                class="socials__link "
                 target="blank"
                 rel="noopener noreferrer"
               >
@@ -378,7 +378,7 @@
           </ul>
         </div>
 
-        <div class="form-row-footer">
+        <div class="form-mailing">
           <h3 class="footer__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
 
           <form action="#" class="modal-form">
@@ -386,7 +386,7 @@
 
             <input
               type="text"
-              class="form-row-inp"
+              class="modal-form__input"
               name="user_coments"
               id="user_coments"
               required
@@ -395,9 +395,9 @@
               placeholder="E-mail"
             />
 
-            <button class="footer_send_btn" type="submit">
+            <button class="modal-form__btn" type="submit">
               Підписатися
-              <svg class="icon-footer" width="24" height="24">
+              <svg class="modal-form__icon" width="24" height="24">
                 <use xlink:href="./images/sprite.svg#icon-send"></use>
               </svg>
             </button>

@@ -566,7 +566,7 @@
 
       <div class="modal-wrap is-hidden" data-modal>
         <div class="modal">
-          <p>Залиште свої дані, ми вам передзвонимо</p>
+          <p class="modal__discription">Залиште свої дані, ми вам передзвонимо</p>
           <button data-modal-close type="button" class="modal__close" > 
             <svg class="modal__cross" width="11" height="11">
             <use xlink:href="./images/sprite.svg#icon-cross"></use>
@@ -660,12 +660,12 @@
 
     <footer class="footer">
       <div class="conteiner footer__conteiner">
-        <div class="foot_adress">
+        <div class="contacts">
           <a class="footer__logo logo" href="index.html"
             >Web<span>Studio</span></a
           >
           <address>
-            <ul class="adress">
+            <ul class="contacts__adress">
               <li class="footer-adress list">
                 <a
                   href="https://goo.gl/maps/wSFg71M6Uk85JUGh7"
@@ -675,21 +675,21 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="footer-nave list">
+              <li class="contacts-info list">
                 <a
                   href="info@devstudio.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="footer-nave__link link"
+                  class="contacts-info__link link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer-nave list">
+              <li class="contacts__info list">
                 <a
                   href="+380961111111"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="footer-nave__link link"
+                  class="contacts-info__link link"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -754,7 +754,7 @@
           </ul>
         </div>
 
-        <div class="form-row-footer">
+        <div class="form-mailing">
           <h3 class="footer__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
 
           <form action="#" class="modal-form">
@@ -762,7 +762,7 @@
 
             <input
               type="text"
-              class="form-row-inp"
+              class="modal-form__input"
               name="user_coments"
               id="user_coments"
               required
@@ -771,9 +771,9 @@
               placeholder="E-mail"
             />
 
-            <button class="footer_send_btn" type="submit">
+            <button class="modal-form__btn" type="submit">
               Підписатися
-              <svg class="icon-footer" width="24" height="24">
+              <svg class="modal-form__icon" width="24" height="24">
                 <use xlink:href="./images/sprite.svg#icon-send"></use>
               </svg>
             </button>
