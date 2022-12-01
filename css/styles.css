@@ -239,8 +239,6 @@ header{ border-bottom: 1px solid #ececec;}
   fill: currentColor;
 }
 
-
-
 .adress-head__link:hover .icon-adress-link,
 .adress-head__link:focus .icon-adress-link {
   fill: var(--accent-color);
@@ -626,7 +624,7 @@ color: var(--primary-white-color);}
   position: relative;
   
 }
-.send_btn{
+.send-btn{
   min-width: 216px;
   min-height: 50px;
   display: inline-block;
