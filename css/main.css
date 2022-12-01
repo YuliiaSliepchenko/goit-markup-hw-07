@@ -256,13 +256,6 @@ summary {
   display: list-item;
 }
 
-.section {
-  background-color: var(--primary-white-color);
-  width: 100%;
-  margin: 0 auto;
-  padding: 94px 0;
-}
-
 h1,
 h2,
 h3,

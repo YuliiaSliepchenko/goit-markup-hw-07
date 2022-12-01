@@ -24,12 +24,7 @@
   line-height: 1.17;
   text-align: center;
 }
-.conteiner {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 
 .logo {
   color: var(--accent-color);
