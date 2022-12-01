@@ -1,0 +1,19 @@
+.header__logo span{
+    color: var(--logo-black);
+  }
+  .header__logo{
+    padding: 24px 0;
+  }
+  
+  .header__conteiner {
+    justify-content: space-between;
+    display: flex;
+  }
+  .header{ border-bottom: 1px solid #ececec;}
+  
+  .header__nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
