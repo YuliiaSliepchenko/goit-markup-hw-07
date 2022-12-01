@@ -820,12 +820,6 @@ button {
   font-family: inherit;
 }
 
-.button-secondary .items {
-  border-color: transparent;
-  border-radius: 0px 0px 4px 4px;
-}
- 
-
 
 /* portfolio action-discription */
 
@@ -853,13 +847,6 @@ button {
   overflow: auto;
   transition: background-color,transform 250ms cubic-bezier(0.4,0,0.2,1);
 }
-.section-category .items {
-  display: flex;
-  justify-content: center;
-}
-.section-category h1 {
-  align-items: center;
-}
 
 .images {
   display: block;
@@ -869,10 +856,7 @@ button {
   padding: 20px;
   border: 1px solid #eeeeee;
 }
-.poster {
-  margin-top: 9px;
-  margin-bottom: 6px;
-}
+
 
 /* footer */
 
