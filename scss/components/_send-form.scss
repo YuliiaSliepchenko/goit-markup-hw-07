@@ -34,6 +34,34 @@
     top: 25%;
     color: var(--primary-white-color);
   }
+  &__btn{
+    max-width: 200px;
+    max-height: 50px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 6px 22px;
+    text-align: start;
+    left: 12px;
+    padding: 10px 27px;
+    border: 1px solid transparent;
+    
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    transition-duration: 1s;
+    position: relative;
+    margin-top: 20px;
+  }
+  &__btn:hover,
+  &__btn:focus{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  }
 }
   .form-mailing{
     position: relative;
