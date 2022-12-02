@@ -327,6 +327,18 @@ img {
   color: var(--primary-text-color);
 }
 
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .header__logo span {
   color: var(--logo-black);
 }
@@ -496,4 +508,165 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.hero-section {
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--start-color)), to(var(--end-color))), url(../images/Img.jpg);
+  background-image: linear-gradient(to top, var(--start-color), var(--end-color)), url(../images/Img.jpg);
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  max-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 200px 0;
+  gap: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.hero-section__conteiner {
+  display: contents;
+}
+.hero-section__title {
+  width: 696px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.help-section {
+  padding-bottom: 0;
+}
+.help-section__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.advantage-card__title {
+  font-size: 14px;
+  line-height: 1.14;
+}
+.advantage-card__discription {
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.advantage-card:last-child {
+  margin-right: 0;
+}
+.advantage-card__link {
+  margin-right: 0;
+}
+.advantage-card__svg {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: var(--bgr-grey-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  fill: currentColor;
+}
+
+.action-photo__item {
+  position: relative;
+  overflow: hidden;
+}
+.action-photo__discription {
+  position: absolute;
+  top: 55%;
+  left: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  height: 24%;
+  min-width: 370px;
+  /* opacity: 0; */
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--primary-white-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 27px 90px;
+  overflow: auto;
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.action-photo__title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  text-decoration: none;
+}
+.action-photo__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.our-team {
+  background-color: var(--bgr-grey-color);
+  max-width: 1600px;
+}
+.our-team__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.team-card {
+  border-color: transparent;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--primary-white-color);
+}
+.team-card__discription {
+  line-height: 1.19;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.team-card__conteiner {
+  padding: 30px 10px 0px;
+}
+.team-card__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+.hero-section {
+    width: 100%;
+    background-image:linear-gradient(to top,
+    var(--start-color),var(--end-color)
+    ),url(../images/Img.jpg);
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+    gap: 30px;
+    flex-direction: column;
+  
+  &__conteiner {
+  display: contents;
+  } 
+ &__title {
+    width: 696px;
+    display: inline-block;
+    text-align: center;
+  
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+  }
+}
+  
